@@ -5,7 +5,7 @@ class Pin < ActiveRecord::Base
           :styles => { 
   					:large => '1000x1000>', 
   					:medium => "300x300>", 
-  					:thumb => "100x100>" },             
+  					:thumb => "100x100>" }             
 					
   
   # Necessario per paperclip 4.0 in poi
