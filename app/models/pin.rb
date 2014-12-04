@@ -11,4 +11,6 @@ class Pin < ActiveRecord::Base
   # Necessario per paperclip 4.0 in poi
   validates_attachment_content_type :image, :content_type => /\Aimage/
 
+  validates :image, presence: true
+  validates :description, presence: true
 end
