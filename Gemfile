@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.5'
+ruby '2.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -44,6 +44,8 @@ gem 'aws-sdk', '~> 1.59.0'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-bootstrap'
+
+gem "braintree"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

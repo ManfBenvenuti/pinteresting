@@ -37,4 +37,9 @@ Rails.application.configure do
 
   # Required for Heroku
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  Braintree::Configuration.environment = :sandbox
+  Braintree::Configuration.merchant_id = 'pdgnpd6b7xyf7d3t'
+  Braintree::Configuration.public_key = '7m3nyszyvzmyrfmd'
+  Braintree::Configuration.private_key = '8f13449b7af2c7310c41a31ab2c5d266'
 end
